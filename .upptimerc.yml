@@ -4,16 +4,19 @@ repo: status
 sites:
   - name: Website
     url: https://ip-db.com/en/
+    icon: https://status.ip-db.com/favicon.png
   - name: IP Lookup API
     url: https://api.ip-db.com/v1/check/8.8.8.8
     expectedStatusCodes:
       - 401
   - name: API Gateway
     url: https://api.ip-db.com/
+    icon: https://status.ip-db.com/favicon.png
   - name: Statistics API
     url: https://ip-db.com/stats/lookups.json
   - name: WHOIS Lookup
     url: https://whois.ip-db.com/en/
+    icon: https://status.ip-db.com/favicon.png
   - name: API Documentation
     url: https://ip-db.com/en/api-docs
 

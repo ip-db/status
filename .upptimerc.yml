@@ -8,6 +8,8 @@ sites:
     url: https://api.ip-db.com/v1/check/8.8.8.8
     expectedStatusCodes:
       - 401
+  - name: API Gateway
+    url: https://api.ip-db.com/
   - name: Statistics API
     url: https://ip-db.com/stats/lookups.json
   - name: WHOIS Lookup

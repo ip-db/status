@@ -48,12 +48,6 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
-      - name: Update template
-        uses: upptime/uptime-monitor@v1.46.5
-        with:
-          command: "update-template"
-        env:
-          GH_PAT: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.46.5
         with:
@@ -99,5 +93,5 @@ jobs:
           github_token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
-          user_name: "Upptime Bot"
-          user_email: "73812536+upptime-bot@users.noreply.github.com"
+          user_name: "IP-DB"
+          user_email: "358008270+ip-db@users.noreply.github.com"

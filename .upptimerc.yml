@@ -7,6 +7,7 @@ sites:
     icon: https://status.ip-db.com/favicon.png
   - name: IP Lookup API
     url: https://api.ip-db.com/v1/check/8.8.8.8
+    icon: https://status.ip-db.com/favicon.png
     expectedStatusCodes:
       - 401
   - name: API Gateway
@@ -14,11 +15,13 @@ sites:
     icon: https://status.ip-db.com/favicon.png
   - name: Statistics API
     url: https://ip-db.com/stats/lookups.json
+    icon: https://status.ip-db.com/favicon.png
   - name: WHOIS Lookup
     url: https://whois.ip-db.com/en/
     icon: https://status.ip-db.com/favicon.png
   - name: API Documentation
     url: https://ip-db.com/en/api-docs
+    icon: https://status.ip-db.com/favicon.png
 
 status-website:
   cname: status.ip-db.com

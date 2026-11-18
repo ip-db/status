@@ -77,10 +77,14 @@ skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: true
 
+commitPrefixStatusUp: "[up]"
+commitPrefixStatusDown: "[down]"
+commitPrefixStatusDegraded: "[degraded]"
+
 commitMessages:
   readmeContent: "Update summary in README [skip ci] [upptime]"
   summaryJson: "Update status summary [skip ci] [upptime]"
-  statusChange: "$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  statusChange: "$PREFIX $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
   graphsUpdate: "Update graphs [skip ci] [upptime]"
   commitAuthorName: "IP-DB"
   commitAuthorEmail: "358008270+ip-db@users.noreply.github.com"

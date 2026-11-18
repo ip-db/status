@@ -24,6 +24,9 @@ status-website:
   introMessage: Availability and response times of ip-db.com services, checked every five minutes from outside our infrastructure.
   i18n:
     footer: "Copyright 2026 IP-DB. All rights reserved. [ip-db.com](https://ip-db.com)"
+    errorIntro: "Status details could not be loaded right now."
+    errorText: "Please try again in a few moments, or visit [ip-db.com](https://ip-db.com)."
+    errorHome: "Reload status page"
   navbar:
     - title: Status
       href: /

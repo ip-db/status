@@ -17,11 +17,13 @@ sites:
 
 status-website:
   cname: status.ip-db.com
-  logoUrl: https://ip-db.com/static/img/favicon.svg
+  logoUrl: https://ip-db.com/static/img/icon-192.png
   favicon: https://ip-db.com/static/img/favicon-32.png
-  name: IP-DB Status
+  name: ip-db.com Status
   introTitle: "**IP-DB** service status"
   introMessage: Availability and response times of ip-db.com services, checked every five minutes from outside our infrastructure.
+  i18n:
+    footer: "Copyright 2026 IP-DB. All rights reserved. [ip-db.com](https://ip-db.com)"
   navbar:
     - title: Status
       href: /

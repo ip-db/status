@@ -1,31 +1,45 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: ip-db
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://ip-db.com/en/
+  - name: IP Lookup API
+    url: https://ip-db.com/api/v1/check/8.8.8.8
+    expectedStatusCodes:
+      - 401
+  - name: Statistics API
+    url: https://ip-db.com/stats/lookups.json
+  - name: WHOIS Lookup
+    url: https://whois.ip-db.com/en/
+  - name: API Documentation
+    url: https://ip-db.com/en/api-docs
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.ip-db.com
+  logoUrl: https://ip-db.com/static/img/favicon.svg
+  favicon: https://ip-db.com/static/img/favicon-32.png
+  name: IP-DB Status
+  introTitle: "**IP-DB** service status"
+  introMessage: Availability and response times of ip-db.com services, checked every five minutes from outside our infrastructure.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: ip-db.com
+      href: https://ip-db.com
+    - title: API
+      href: https://ip-db.com/en/api-docs
+    - title: Contact
+      href: https://ip-db.com/en/contact
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+
+commitMessages:
+  readmeContent: "Update summary in README [skip ci] [upptime]"
+  summaryJson: "Update status summary [skip ci] [upptime]"
+  statusChange: "$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: "Update graphs [skip ci] [upptime]"
+  commitAuthorName: "IP-DB"
+  commitAuthorEmail: "358008270+ip-db@users.noreply.github.com"

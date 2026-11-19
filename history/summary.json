@@ -22,20 +22,20 @@
     "url": "https://api.ip-db.com/v1/check/8.8.8.8",
     "icon": "https://status.ip-db.com/favicon.png",
     "slug": "ip-lookup-api",
-    "status": "down",
-    "uptime": "82.99%",
-    "uptimeDay": "82.99%",
-    "uptimeWeek": "82.99%",
-    "uptimeMonth": "82.99%",
-    "uptimeYear": "82.99%",
-    "time": 1201,
-    "timeDay": 1201,
-    "timeWeek": 1201,
-    "timeMonth": 1201,
-    "timeYear": 1201,
+    "status": "up",
+    "uptime": "76.37%",
+    "uptimeDay": "76.37%",
+    "uptimeWeek": "76.37%",
+    "uptimeMonth": "76.37%",
+    "uptimeYear": "76.37%",
+    "time": 1374,
+    "timeDay": 1374,
+    "timeWeek": 1374,
+    "timeMonth": 1374,
+    "timeYear": 1374,
     "dailyMinutesDown": {
       "2026-11-18": 105,
-      "2026-11-19": 15
+      "2026-11-19": 77
     }
   },
   {
